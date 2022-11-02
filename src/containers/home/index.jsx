@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { Animate } from 'react-simple-animate'
 import './styles.scss'
 
@@ -30,8 +30,9 @@ const Home = () => {
 							<button>Hire me</button>
 							<a href={'https://docs.google.com/document/d/1iSjKCjIsQGKNn1Gl6RVQyyuRPSpslIpfjKgc_sU6RNk/edit?usp=sharing'}>Download Resume</a>
 						</div>
-						<div className='contact-me__social-wrapper'>
+						<div className='contact-me__socials-wrapper'>
 							<FaLinkedin size={32} />
+							<FaGithub size={32} />
 						</div>
 					</div>
 				</Animate>
