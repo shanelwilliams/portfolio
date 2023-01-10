@@ -1,7 +1,7 @@
 export const particlesConfig = {
     background: {
       color: {
-        value: "gray",
+        value: "purple",
       },
     },
     fpsLimit: 120,
